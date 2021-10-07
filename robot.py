@@ -2,10 +2,11 @@ from weapon import Weapon
 
 
 class Robots():
-   def __init__(self, name, health, weapon):
+   def __init__(self, name, health, weapon, power):
     self.name = name
-    self.health = health
+    self.health = 100
     self.weapon = weapon
+    self.power_level = power()
 
 
     def ability_to_attack(self, dinosaur):
