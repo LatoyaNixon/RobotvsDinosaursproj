@@ -1,5 +1,6 @@
 class Weapon():
-    def __init__(self, name, attack_power):
-        self.name = name
-        self.attack_power = attack_power
+    def __init__(self):
+        self.type_of_weapon = "machine gun"
+        self.attack_power = 50
+        
 

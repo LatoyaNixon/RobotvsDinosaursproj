@@ -7,8 +7,4 @@ class Dinosaur():
         self.energy= energy_of_dino
 
 
-    def ability_to_attack(self, robot):
-        pass
-
-    def lose_health_points(self, robot):
-        pass
+   

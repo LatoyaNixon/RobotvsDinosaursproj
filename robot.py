@@ -9,12 +9,6 @@ class Robots():
     self.power_level = power()
 
 
-    def ability_to_attack(self, dinosaur):
-        pass
-
-
-    def lose_health_points(self, dinosaur):
-        pass
-
+    
     
   
